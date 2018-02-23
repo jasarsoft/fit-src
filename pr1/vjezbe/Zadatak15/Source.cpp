@@ -14,7 +14,8 @@ int main()
 	cout << "Unesite slovo: ";
 	cin >> slovo;
 
-	((slovo >= 'a') && (slovo <= 'z')) ? cout << char(slovo - 32) : cout << char(slovo + 32) << endl;
+	((slovo >= 'a') && (slovo <= 'z')) ? cout << char(slovo - 32) :
+		((slovo >= 'A') && (slovo <= 'Z')) ? cout << char(slovo + 32) : cout << "Niste unijeli slovo!\n";
 
 	system("pause");
 	return 0;
