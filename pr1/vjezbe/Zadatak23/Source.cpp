@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 /*
@@ -12,7 +13,7 @@ int main()
 
 	while (broj <= 100)
 	{
-		cout << broj;
+		cout << setw(4) << broj;
 		if (broj % 5 == 0)
 			cout << endl;
 
