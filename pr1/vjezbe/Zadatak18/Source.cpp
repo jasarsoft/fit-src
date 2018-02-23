@@ -34,8 +34,13 @@ int main()
 		cout << rez << endl;
 		break;
 	case '/':
-		rez = b1 / b2;
-		cout << rez << endl;
+		if (b2 == 0)
+			cout << "Djeljenje s nulom nije moguce!";
+		else
+		{
+			rez = b1 / b2;
+			cout << rez << endl;
+		}		
 		break;
 	default:
 		cout << "Pogresna operacija!\n";
