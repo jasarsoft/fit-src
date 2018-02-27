@@ -2,7 +2,8 @@
 using namespace std;
 
 /*
-
+	Prepravite prethodni program tako da umjesto dva if-else-iskaza 
+	koristite jedan if-else-iskaz, ali da ne mijenjate uslove nego ih samo spojite.
 */
 
 int main()
