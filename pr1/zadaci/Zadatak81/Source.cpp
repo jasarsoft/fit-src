@@ -23,6 +23,8 @@ int main()
 	y += 7;
 	y += 7;
 
+	cout << "Vrijednost y: " << y << endl;
+
 	system("pause");
 	return 0;
 }
