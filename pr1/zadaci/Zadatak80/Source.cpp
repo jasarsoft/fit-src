@@ -22,7 +22,14 @@ int main()
 		for (int i = pocetak; i <= kraj; i--)
 		{
 			if (i % 2 == 0) //i % 2 == 0
-				cout << "korijen broja " << i << " je: " << setprecision(3) << sqrt(i) << endl;
+			{
+				cout << "korijen broja " << i << " je: ";
+
+				if (i < 0)
+					cout << "nemoguc\n";
+				else
+					cout << setprecision(3) << sqrt(i) << endl;
+			}
 			else
 				cout << "kvadrat broja " << i << " je: " << pow(i, 2) << endl;
 		}
@@ -32,7 +39,15 @@ int main()
 		for (int i = pocetak; i <= kraj; i++)
 		{
 			if (i % 2 == 0) //i % 2 == 0
-				cout << "korijen broja " << i << " je: " << setprecision(3) << sqrt(i) << endl;
+			{
+				cout << "korijen broja " << i << " je: ";
+
+				if (i < 0)
+					cout << "nemoguc\n";
+				else
+					cout << setprecision(3) << sqrt(i) << endl;
+			}
+				
 			else
 				cout << "kvadrat broja " << i << " je: " << pow(i, 2) << endl;
 		}
