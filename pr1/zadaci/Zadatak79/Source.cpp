@@ -11,9 +11,12 @@ int main()
 {
 	for (int i = 10; i <= 30; i++)
 	{
-		if (i % 2 != 0) //i % 2 == 0
+		if (i % 2 == 0) //i % 2 == 0
 		{
 			cout << "korijen broja " << i << " je: " << setprecision(3) << sqrt(i) << endl;
+		}
+		else
+		{
 			cout << "kvadrat broja " << i << " je: " << pow(i, 2) << endl;
 		}
 	}
