@@ -46,7 +46,7 @@ void ispisi_ako_je_prost(int broj)
 
 	for (int i = 2; i <= (broj / 2) + 1; i++)
 	{
-		if (broj % i == 0 /*&& broj != i*/)
+		if (broj % i == 0 && broj != i)
 		{
 			prost = false;
 			break;
