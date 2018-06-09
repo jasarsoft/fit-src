@@ -1,0 +1,1 @@
+SELECT LEFT('Headset Ball Bearings', 7)
