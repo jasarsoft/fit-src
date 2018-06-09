@@ -1,0 +1,1 @@
+SELECT SUBSTRING('Headset Ball Bearings', 9, 4)
