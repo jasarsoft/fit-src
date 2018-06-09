@@ -1,0 +1,1 @@
+SELECT LEN('Headset Ball Bearings')
