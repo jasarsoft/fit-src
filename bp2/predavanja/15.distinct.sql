@@ -1,0 +1,5 @@
+USE NORTHWND
+
+SELECT DISTINCT Country
+FROM Suppliers
+ORDER BY Country
