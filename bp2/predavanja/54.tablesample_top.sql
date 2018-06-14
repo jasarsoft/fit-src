@@ -1,0 +1,4 @@
+USE AdventureWorks2014
+GO
+SELECT TOP 50 Name AS Product
+FROM Production.Product TABLESAMPLE(50 PERCENT)
