@@ -1,0 +1,4 @@
+USE NORTHWND
+GO
+SELECT T.OrderID, T.CustomerID
+FROM (SELECT OrderID, CustomerID FROM Orders) AS T
