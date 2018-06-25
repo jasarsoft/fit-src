@@ -1,0 +1,7 @@
+--specificirani login
+
+CREATE LOGIN Imran
+WITH PASSWORD = 'password',
+DEFAULT_DATABASE = AdventureWorks2014,
+CHECK_EXPIRATION = OFF,
+CHECK_POLICY = OFF;
