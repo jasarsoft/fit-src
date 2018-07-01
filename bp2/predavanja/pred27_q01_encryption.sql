@@ -1,0 +1,10 @@
+--encryption
+
+CREATE DATABASE CryptoDB
+GO
+
+USE CryptoDB
+GO
+
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'Some3xtr4Passw00rd';
+GO
