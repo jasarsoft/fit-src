@@ -1,0 +1,16 @@
+--drop
+
+DROP SYMMETRIC KEY CustomerSymKey
+GO
+
+DROP CERTIFICATE Cert4SymKey
+GO
+
+DROP MASTER KEY
+GO
+
+USE master
+GO
+
+DROP DATABASE CryptoDB
+GO
